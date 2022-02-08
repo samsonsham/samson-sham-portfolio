@@ -8,9 +8,23 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@chakra-ui/icons": "^1.1.5",
+    "@chakra-ui/react": "^1.8.3",
+    "@emotion/react": "^11.7.1",
+    "@emotion/styled": "^11.6.0",
+    "@fontsource/kaushan-script": "^4.5.1",
+    "@fontsource/noto-sans-hk": "^4.5.3",
+    "@fontsource/noto-sans-tc": "^4.5.3",
+    "@fontsource/noto-serif-tc": "^4.5.3",
+    "framer-motion": "^5.6.0",
+    "i": "^0.3.7",
     "next": "12.0.10",
+    "next-i18next": "^10.2.0",
+    "npm": "^8.4.1",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react-dom": "17.0.2",
+    "react-icons": "^4.3.1",
+    "smoothscroll-polyfill": "^0.4.4"
   },
   "devDependencies": {
     "eslint": "8.8.0",
