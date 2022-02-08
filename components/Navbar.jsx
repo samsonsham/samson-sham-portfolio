@@ -72,7 +72,7 @@ export default function Navbar() {
             fontFamily={router.locale === 'en' ? "Kaushan Script" : "Noto Serif TC"}
 						fontWeight={router.locale === 'en' ? "" : "bold"}
             color={useColorModeValue('gray.600', 'teal.50')}
-            fontSize={{ base: '3xl', lg: '4xl' }}
+            fontSize={{ base: '2xl', lg: '4xl' }}
           >
 						<Stack direction={'row'}>
 							<NextLink href='/' passHref>
@@ -82,8 +82,8 @@ export default function Navbar() {
 									aria-label="Back to Home page"
 									color={'orange.300'}
 									_hover={{color: "orange.400"}}
-									w={10} h={10}
-									mt={router.locale === 'en' ? "0" : "1"}
+									w={8} h={8}
+									mt={"1"}
 								/>
 								</Link>
 							</NextLink>
