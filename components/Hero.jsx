@@ -68,10 +68,10 @@ export default function Hero() {
 						<Button
 							id="viewMyWorkBtn"
 							rounded={'md'}
-							bg={'green.300'}
+							bg={'green.400'}
 							color={'white'}
 							_hover={{
-								bg: 'green.400',
+								bg: 'green.500',
 							}}>
 									<ViewIcon w={6} h={6} mr={3} color="white" />{t('view-my-work')}
 						</Button>

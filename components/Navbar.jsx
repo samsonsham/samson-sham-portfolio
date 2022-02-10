@@ -32,10 +32,6 @@ import { HamburgerIcon, CloseIcon, MoonIcon, SunIcon } from '@chakra-ui/icons';
 // Icons and Fonts
 import { HiCode } from 'react-icons/hi';
 import { MdTranslate } from 'react-icons/md';
-import "@fontsource/kaushan-script";
-import "@fontsource/noto-sans-hk";
-import "@fontsource/noto-sans-tc";
-import "@fontsource/noto-serif-tc";
 
 // Helper
 import { decapitalize } from '../lib/util';
@@ -69,10 +65,9 @@ export default function Navbar() {
       <Flex h={16} alignItems={'center'} justifyContent={'space-between'}>
         <HStack spacing={8} alignItems={'center'}>
           <Box
-            fontFamily={router.locale === 'en' ? "Kaushan Script" : "Noto Serif TC"}
-						fontWeight={router.locale === 'en' ? "" : "bold"}
+            fontFamily={router.locale === 'en' ? "Kaushan Script" : "Noto Sans HK"}
             color={useColorModeValue('gray.600', 'teal.50')}
-            fontSize={{ base: '2xl', lg: '4xl' }}
+            fontSize={{ base: '2xl', md: '4xl', lg: '4xl' }}
           >
 						<Stack direction={'row'}>
 							<NextLink href='/' passHref>

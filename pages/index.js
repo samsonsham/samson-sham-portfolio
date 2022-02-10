@@ -1,11 +1,13 @@
 // Next
 import Head from 'next/head';
+import dynamic from "next/dynamic";
 
 // Components
-import Navbar from "../components/Navbar";
-import Hero from "../components/Hero";
-import Work from "../components/Work";
-import Footer from "../components/Footer";
+const Navbar = dynamic(() => import("../components/Navbar"));
+const Hero = dynamic(() => import("../components/Hero"));
+const Work = dynamic(() => import("../components/Work"));
+const Footer = dynamic(() => import("../components/Footer"));
+
 
 // i18n
 import { useTranslation } from 'next-i18next'
@@ -33,7 +35,7 @@ export default function Home() {
           <meta name="title" property="og:title" content="Samson Sham's Portfolio"></meta>   
           <meta name="description" property="og:description" content="Front End Developer Portfolio, built with Next.js and Chakra, based in Reading"></meta>
           <meta name="image" property="og:image" content="https://avatars.githubusercontent.com/u/4945010?v=4"></meta>
-          <meta name="author" content="Tom Young"></meta>
+          <meta name="author" content="Samson Sham"></meta>
           <link rel="shortcut icon" href="/static/favicon.ico" />
         </Head>
         <Navbar />
