@@ -10,7 +10,7 @@
 
 ## Built With
 
-- [Next.js](https://samson-sham-portfolio.vercel.app/) A popular React framework featuring Server-Side Rendering.
+- [Next.js](https://nextjs.org) A popular React framework featuring Server-Side Rendering.
 - [Chakra UI](https://chakra-ui.com) I use Chakra UI,a UI library for fast development, with the support of Styled Props of @emotion.
 
 ## Changelog
