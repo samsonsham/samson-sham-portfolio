@@ -10,6 +10,7 @@ import {
   Container,
   Box,
   Flex,
+  Link,
   Text,
   Heading,
   SimpleGrid,
@@ -82,15 +83,20 @@ export default function Work() {
                   >
                     {router.locale === "en" ? stat.title_en : stat.title_tc}
                   </Text>
-                  <Image
-                    borderRadius="10px"
-                    boxSize="110px"
-                    float="right"
-                    ml={2}
-                    objectFit="cover"
-                    src={stat.imgSrc}
-                    alt={router.locale === "en" ? stat.title_en : stat.title_tc}
-                  />
+                  <Link href={stat.siteLink}>
+                    <Image
+                      borderRadius="10px"
+                      boxSize="110px"
+                      float="right"
+                      ml={2}
+                      objectFit="cover"
+                      src={stat.imgSrc}
+                      alt={
+                        router.locale === "en" ? stat.title_en : stat.title_tc
+                      }
+                    />
+                  </Link>
+
                   <Text fontSize={"md"} color={"gray.700"} textAlign="left">
                     {router.locale === "en"
                       ? stat.description_en
