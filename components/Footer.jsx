@@ -17,7 +17,7 @@ import {
 // Icons
 import { FaTwitter, FaGithub, FaLinkedin, FaDev } from "react-icons/fa";
 
-export default function Footer() {
+const Footer = () => {
   const iconFontSize = "40px";
   const { t } = useTranslation("common");
 
@@ -116,3 +116,5 @@ export default function Footer() {
     </Box>
   );
 }
+
+export default Footer;

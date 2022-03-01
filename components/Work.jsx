@@ -23,7 +23,7 @@ import {
 // Icons
 import { FaExternalLinkAlt, FaGithub } from "react-icons/fa";
 
-export default function Work() {
+const Work = () => {
   const { t } = useTranslation("common");
   const router = useRouter();
   const iconFontSize = "30px";
@@ -148,7 +148,7 @@ export default function Work() {
       </Container>
     </Box>
   );
-}
+};
 
 const stats = [
   {
@@ -178,3 +178,5 @@ const stats = [
     builtWith: ["Next.js", "Typescript", "Chakra UI", "i18next"],
   },
 ];
+
+export default Work;
