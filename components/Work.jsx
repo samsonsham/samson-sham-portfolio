@@ -18,6 +18,8 @@ import {
   IconButton,
   useColorModeValue,
   Image,
+  Wrap,
+  WrapItem,
 } from "@chakra-ui/react";
 
 // Icons
@@ -125,21 +127,22 @@ const Work = () => {
                       />
                     </ButtonGroup>
                   </Stack>
-                  <Stack direction={"row"} my={2} bottom={0} position="static">
+                  <Wrap>
                     {stat.builtWith.map((tech, i) => (
-                      <Text
-                        key={i}
-                        bg={"gray.500"}
-                        color={"white"}
-                        fontSize={"sm"}
-                        px={1}
-                        py={0}
-                        borderRadius={5}
-                      >
-                        {tech}
-                      </Text>
+                      <WrapItem key={i}>
+                        <Text
+                          bg={"gray.500"}
+                          color={"white"}
+                          fontSize={"sm"}
+                          px={1}
+                          py={0}
+                          borderRadius={5}
+                        >
+                          {tech}
+                        </Text>
+                      </WrapItem>
                     ))}
-                  </Stack>
+                  </Wrap>
                 </Box>
               ))}
             </SimpleGrid>
@@ -175,7 +178,7 @@ const stats = [
       "\u4e00\u500b\u70ba\u65b9\u4fbf i18n \u958b\u767c\u800c\u88fd\u4f5c\u7684\u7a0b\u5f0f\uff0c\u652f\u63f4 emoji \ud83d\ude04 \u8f49\u63db\u53ca\u5be6\u6642\u8f49\u63db\u529f\u80fd\u3002",
     githubLink: "https://github.com/samsonsham/uvicode",
     siteLink: "https://milkteacode.vercel.app",
-    builtWith: ["Next.js", "Typescript", "Chakra UI", "i18next"],
+    builtWith: ["Next.js", "Typescript", "Chakra UI", "i18next", "SendGrid"],
   },
 ];
 
