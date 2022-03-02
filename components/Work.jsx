@@ -165,7 +165,7 @@ const stats = [
     builtWith: ["React", "Typescript", "SASS"],
   },
   {
-    title_en: "Uvicode",
+    title_en: "MilkteaCode",
     title_tc: "Unicode \u8f49\u63db",
     imgSrc:
       "https://ik.imagekit.io/c5xc1x6srka/screenshot/Screenshot_2022-02-23_at_2.22.04_am_mrU1heK-8ro.png?ik-sdk-version=javascript-1.4.3&updatedAt=1645582983562",
@@ -174,7 +174,7 @@ const stats = [
     description_tc:
       "\u4e00\u500b\u70ba\u65b9\u4fbf i18n \u958b\u767c\u800c\u88fd\u4f5c\u7684\u7a0b\u5f0f\uff0c\u652f\u63f4 emoji \ud83d\ude04 \u8f49\u63db\u53ca\u5be6\u6642\u8f49\u63db\u529f\u80fd\u3002",
     githubLink: "https://github.com/samsonsham/uvicode",
-    siteLink: "https://uvicode.vercel.app",
+    siteLink: "https://milkteacode.vercel.app",
     builtWith: ["Next.js", "Typescript", "Chakra UI", "i18next"],
   },
 ];
