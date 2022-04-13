@@ -164,8 +164,7 @@ const stats = [
     description_tc:
       "\u4e00\u500b\u5305\u542b\u524d\u5f8c\u53f0\u7684MERN\u5168\u7aef\u7a0b\u5f0f\uff0c\u61c9\u7528\u4e86WebPack\u3001TypeScript\u53caAWS\u6280\u8853\u3002",
     githubLink: "https://github.com/samsonsham/my-blog-webpack/",
-    siteLink:
-      "http://ec2-18-170-107-111.eu-west-2.compute.amazonaws.com/my-blog-webpack",
+    siteLink: "http://ec2-18-170-107-111.eu-west-2.compute.amazonaws.com",
     builtWith: ["React", "Node.js", "Mongo DB", "WebPack", "TypeScript", "AWS"],
   },
   {
