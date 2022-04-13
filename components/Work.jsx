@@ -155,6 +155,44 @@ const Work = () => {
 
 const stats = [
   {
+    title_en: "My Blog",
+    title_tc: "\u6211\u7684\u535a\u5ba2",
+    imgSrc:
+      "https://ik.imagekit.io/c5xc1x6srka/screenshot/my-blog_ssmeX2grr.png",
+    description_en:
+      "A full stack MERN application build with WebPack and Typescript. Hosted with AWS",
+    description_tc:
+      "\u4e00\u500b\u5305\u542b\u524d\u5f8c\u53f0\u7684MERN\u5168\u7aef\u7a0b\u5f0f\uff0c\u61c9\u7528\u4e86WebPack\u3001TypeScript\u53caAWS\u6280\u8853\u3002",
+    githubLink: "https://github.com/samsonsham/my-blog-webpack/",
+    siteLink:
+      "http://ec2-18-170-107-111.eu-west-2.compute.amazonaws.com/my-blog-webpack",
+    builtWith: ["React", "Node.js", "Mongo DB", "WebPack", "TypeScript", "AWS"],
+  },
+  {
+    title_en: "Four Card Feature Section",
+    title_tc: "Four Card Feature Section",
+    imgSrc:
+      "https://ik.imagekit.io/c5xc1x6srka/screenshot/screen-four-card-feature_nstWHlnWG.png",
+    description_en: "A demo web page featuring 4 cards responsive layout.",
+    description_tc: "A demo web page featuring 4 cards responsive layout.",
+    githubLink: "https://github.com/samsonsham/four-card-feature",
+    siteLink: "https://samsonsham.github.io/four-card-feature/",
+    builtWith: ["Sementic HTML", "CSS Grid", "CSS Flexbox", "SASS"],
+  },
+  {
+    title_en: "MilkteaCode",
+    title_tc: "Unicode \u8f49\u63db",
+    imgSrc:
+      "https://ik.imagekit.io/c5xc1x6srka/screenshot/Screenshot_2022-02-23_at_2.22.04_am_mrU1heK-8ro.png",
+    description_en:
+      "A Unicode Converter to facilitate i18n development, featuring emoji\ud83d\ude04 conversion and conversion on the fly.",
+    description_tc:
+      "\u4e00\u500b\u70ba\u65b9\u4fbf i18n \u958b\u767c\u800c\u88fd\u4f5c\u7684\u7a0b\u5f0f\uff0c\u652f\u63f4 emoji \ud83d\ude04 \u8f49\u63db\u53ca\u5be6\u6642\u8f49\u63db\u529f\u80fd\u3002",
+    githubLink: "https://github.com/samsonsham/uvicode",
+    siteLink: "https://milkteacode.vercel.app",
+    builtWith: ["Next.js", "Typescript", "Chakra UI", "i18next", "SendGrid"],
+  },
+  {
     title_en: "Noughts and Crosses",
     title_tc: "\u904e\u4e09\u95dc",
     imgSrc:
@@ -166,19 +204,6 @@ const stats = [
     githubLink: "https://github.com/samsonsham/noughts-and-crosses",
     siteLink: "https://samsonsham.github.io/noughts-and-crosses/",
     builtWith: ["React", "Typescript", "SASS"],
-  },
-  {
-    title_en: "MilkteaCode",
-    title_tc: "Unicode \u8f49\u63db",
-    imgSrc:
-      "https://ik.imagekit.io/c5xc1x6srka/screenshot/Screenshot_2022-02-23_at_2.22.04_am_mrU1heK-8ro.png?ik-sdk-version=javascript-1.4.3&updatedAt=1645582983562",
-    description_en:
-      "A Unicode Converter to facilitate i18n development, featuring emoji\ud83d\ude04 conversion and conversion on the fly.",
-    description_tc:
-      "\u4e00\u500b\u70ba\u65b9\u4fbf i18n \u958b\u767c\u800c\u88fd\u4f5c\u7684\u7a0b\u5f0f\uff0c\u652f\u63f4 emoji \ud83d\ude04 \u8f49\u63db\u53ca\u5be6\u6642\u8f49\u63db\u529f\u80fd\u3002",
-    githubLink: "https://github.com/samsonsham/uvicode",
-    siteLink: "https://milkteacode.vercel.app",
-    builtWith: ["Next.js", "Typescript", "Chakra UI", "i18next", "SendGrid"],
   },
 ];
 
